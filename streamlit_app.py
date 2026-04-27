@@ -217,7 +217,7 @@ if process_btn:
             status_text.info("🔍 Extracting and chunking code files...")
 
             response = requests.post(
-                f"{BACKEND_URL}/upload",
+                f"{BACKEND_URL}/api/upload",
                 json={"repo_url": repo_url},
                 timeout=360
             )
