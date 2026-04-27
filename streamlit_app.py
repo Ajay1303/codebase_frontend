@@ -18,7 +18,7 @@ st.set_page_config(
 
 # ── Backend URL ───────────────────────────────────────────────────────────────
 # Change this to your deployed FastAPI URL when hosting on Render / Railway
-BACKEND_URL = "http://localhost:8000/api"
+BACKEND_URL = "https://codebase-assistance.onrender.com"
 
 # ── Custom CSS ────────────────────────────────────────────────────────────────
 st.markdown("""
